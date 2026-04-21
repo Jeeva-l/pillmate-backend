@@ -23,7 +23,7 @@ import java.time.LocalDateTime;
 import java.util.Optional;
 import java.util.concurrent.ThreadLocalRandom;
 
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/api/auth")
 public class AuthController {
